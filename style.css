@@ -1,0 +1,203 @@
+/* IMPOSTAZIONI GENERALI */
+
+
+*{
+   box-sizing: border-box;
+    /* max-width: 450px; per vederlo responsive e al centro basta toglierlo  */
+}
+
+h1,h2,h3,h4,h5{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+}
+
+h1{
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 30px ;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+
+p{  
+    font-size: 1.2rem;
+    color: #393d41;
+    /* font-weight: bold; */
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65rem;
+}
+
+/* HEADER */
+header{
+    text-align: center;
+    
+}
+#barra-logo{
+    background-color: black;
+}
+
+div#barra-logo>img{
+    width: 150px;
+    margin: 30px 0px;
+}
+
+#introduzione{
+    text-align: center;
+    background-image: url(css/images/foto1.jpg);
+    
+}
+
+#testa{
+    background-image: url(images/banner.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+} 
+
+/* BUTTON */
+#contenitore-button{
+    text-align: center;
+    margin-top:40px;
+    
+}
+
+.button{
+    border: 0px;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom:40px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    background-color: #f04c2f ;
+    font-family:'Montserrat', sans-serif;
+}
+
+
+
+/* MAIN */
+main{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.didascalia{
+    margin-top: 20px;
+}
+/* img a cerchio */
+#contenitore-cerchio{
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(images/notebook.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+} 
+
+/* sezione rossa */
+#sezione-rossa{
+    background-color: #e22d0e;
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+}
+
+#Epicode-garantisce{
+    color: white;
+}
+cite{
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+#bianco1{
+    color: white;
+    margin-top: 30px;
+}
+#bianco2{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+/* ARTICLE*/
+article{
+    margin-top: 40px;
+}
+
+.articoli{
+    border: 1px solid #dee1e3 ;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 350px;
+    
+}
+
+div.articoli>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+div.articoli>a{
+    color: #25a2c3;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+div.articoli>p{
+    padding-bottom: 40px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #25a2c3;
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+footer>h1{
+    color: white;
+}
+footer>a{
+    color: white;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+
+footer>address{
+    color: white;
+    line-height: 30px;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+ 
+footer>p{
+    color: white;
+}
+
+
+#linea{
+    margin-bottom: 30px;
+}
+
+#last{
+    font-size: 0.8rem;
+}
+#last>a{color: white;
+}
+
